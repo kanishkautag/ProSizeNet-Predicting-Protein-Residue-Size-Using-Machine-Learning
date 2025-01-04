@@ -13,8 +13,6 @@ ProSizeNet introduces a novel hybrid CNN-Transformer architecture for predicting
 - Robust validation using multiple performance metrics
 - Detailed analysis of model behavior across different protein structures
 
-## Model Architecture
-![Model Architecture](architecture_diagram.png)
 
 ### Innovative Components
 - **Dual CNN Pathways**:
@@ -54,25 +52,7 @@ pandas>=1.3.0
 scikit-learn>=0.24.2
 matplotlib>=3.4.3
 seaborn>=0.11.2
-```
-
-## Quick Start
-```bash
-# Clone repository
-git clone https://github.com/yourusername/ProSizeNet.git
-cd ProSizeNet
-
-# Set up environment
-python -m venv env
-source env/bin/activate  # or `env\Scripts\activate` on Windows
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Open Jupyter notebook
-jupyter notebook notebooks/ProSizeNet_Analysis.ipynb
-```
-
+'''
 
 
 ## Results Analysis
